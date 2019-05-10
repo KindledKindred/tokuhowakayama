@@ -33,6 +33,10 @@ export default {
   margin-bottom: 20vh;
 }
 
+.v-btn-lowercase {
+  text-transform: none;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

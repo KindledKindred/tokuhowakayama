@@ -7,9 +7,9 @@
 
 
 <script>
-import TwTop from "../components/TwTop";
-import TwNewspaper from "../components/TwNewspaper";
-import TwHistory from "../components/TwHistory";
+import TwTop from "@/components/TwTop";
+import TwNewspaper from "@/components/TwNewspaper";
+import TwHistory from "@/components/TwHistory";
 
 export default {
   name: "Home",

@@ -17,7 +17,7 @@
 			) 採用情報
 			v-btn(
 				flat
-				to="/"
+				to="/contact"
 			) お問い合わせ
 </template>
 
