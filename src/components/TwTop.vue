@@ -1,5 +1,5 @@
 <template lang="pug">
-.clip
+#Top
 	v-container
 		v-layout.my-20vh(row)
 			v-flex(md-7)
@@ -27,6 +27,12 @@ export default {
 
 .slope-2 {
   animation: fadeIn 3s, slope 0.2s 6.5s ease-in-out forwards;
+}
+
+#Top {
+  clip-path polygon(0 0, 100% 0, 100% 70%, 80% 100%, 0 90%)
+  color rgba(235, 235, 235, .9)
+  background-color rgb(35, 35, 35)
 }
 </style>
 
